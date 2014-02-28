@@ -267,8 +267,10 @@ textarea {
         page-break-after: avoid;
     }
 }
+
 p.white {
 	color: #ffffff;
+	text-align: right;
 }	
 h2{
 	color: #5d5d5d;
@@ -314,29 +316,50 @@ small {
 .logo {
 	margin-left: 206.14px;
 }
+.AB {
+	float:right;
+	margin-right: 504.27px;
+}
 .service {
 	width: 100%;
 }
 #fb-bar {
 	height: 50px;
 	width:981.19px;
-	text-align:center;
 	background-color: #475d8f;
 	border: 1px solid #475d8f;
 	border-radius: 8px;
+	margin: 0 204px 0 204px;
+}
+#fb_01 {
+	float:left;
+	margin: 9.78px 0 7.90px 20.69px;
+}
+#fb_02 {
+	float:right;
+	margin: 9.78px 20.69px 7.90px 0;
+}
+#fb_like {
+	float: right;
+	margin: 12.29px 230px 12.29px 0;
 }
 .content {
 	width: auto;
+	display: inline;
 }
 .welcome {
 	width: 500px;
+	float: left;
+	margin-left: 203.67px;
 }
 .facts {
 	width: 500px;
 	float:right;
+	margin-right: 205.38px;
 }
 table {
 	width: 960px;
+	margin: 0 206px 0 206px;
 }
 tr.header {
 	height: 62.45px;
