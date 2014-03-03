@@ -306,7 +306,18 @@ table td{
 	float:left;
 	margin: 34px 40px 38px 86.97px;
 }
-
+#cooling_graphic01 img{
+	float:left;
+	margin: 34px 40px 38px 86.97px;
+}
+#cooling_graphic02 img{
+	float:left;
+	margin: 34px 0px 38px 0px;
+}
+#cooling_graphic03 img{
+	float:left;
+	margin: 34px 86.97px 38px 40px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
