@@ -318,6 +318,53 @@ table td{
 	float:left;
 	margin: 34px 86.97px 38px 40px;
 }
+#about_us h2 {
+	color: #2c2c2c;
+	letter-spacing: 11px;
+	margin-top: 36px;
+}
+#about_us {
+	background-color: #eef1f5;
+	width: 100%
+}
+#about_us p{
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 919px;
+}
+#car {
+	margin-left: auto;
+	margin-right: auto;
+}
+.logos{
+	float: left;
+	margin: 27px 20px 31px 20px;
+}
+.logos a{
+	margin-right: 8px;
+	margin-left: 8px; 
+}
+.logos2{
+	float: left;
+	margin: 0px 20px 31px 20px;
+}
+.logos2 a{
+	margin-right: 8px;
+	margin-left: 8px; 
+}
+.logos3 a{
+	margin-right: 8px;
+	margin-left: 8px; 
+}
+.logos3{
+	margin: 0px 20px 31px 20px;
+}
+.logos3 a{
+	margin-right: 8px;
+	margin-left: 8px; 
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
