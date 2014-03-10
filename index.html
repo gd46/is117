@@ -9,7 +9,7 @@
 
         <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
 		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.7.1.min.js"></script>
@@ -71,7 +71,7 @@
     					<li> Service and preventative maintenance contacts </li>
     				</ul>	
     			</div>	<!-- End of Facts Section -->
-    			<table>
+    			<table id="table">
     				<tr><td rowspan="7" id="blue"><div class="rotate">AIR CONDITIONING</div></td><th>RESIDENTIAL</th><th>COMMERCIAL</th><th>INDUSTRIAL</th></tr>
     				<tr><td>Central Systems</td><td>Packaged Units</td><td>Cooling Towers</td></tr>
     				<tr><td>Mini-Split Ductless</td><td>Split Systems</td><td>Chillers</td></tr>
@@ -85,23 +85,26 @@
     				<tr><td></td><td>Infrared Radiant Systems</td></tr>
     			
     			</table>
-    			<div id="heating"> <!-- Start of Heating Section -->
-    				<h2>Heating</h2>
-    				<p>Our goal is to keep you warm and comfortable through the winter months. 
-    				We know which products and systems will work best for you. Our recommendations will always keep your 
-    				requirements and budget in mind. We'l respond to your requests and act quickly when you call. 
-    				Nothing is more important than your peace of mind when the weather is cold.
-    				</p>
-    				<div id="heating_graphic01">
-    					<img src="img/heating_graphic01.png">
-    				</div>	
-    				<div id="heating_graphic02">
-    					<img src="img/heating_graphic02.png">
-    				</div>
-    				<div id="heating_graphic03">
-    					<img src="img/heating_graphic03.png">
-    				</div>
-    			</div> <!-- End of Heating Section -->
+    			<div id="heat_container"> <!-- Heating Section Container, makes Background Expand to Edges -->
+    				<div id="heating"> <!-- Start of Heating Section -->
+    					<h2>Heating</h2>
+    					<p>Our goal is to keep you warm and comfortable through the winter months. 
+    					We know which products and systems will work best for you. Our recommendations will always keep your 
+    					requirements and budget in mind. We'l respond to your requests and act quickly when you call. 
+    					Nothing is more important than your peace of mind when the weather is cold.
+    					</p>
+    					<div id="heating_graphic01">
+    						<img src="img/heating_graphic01.png">
+    					</div>	
+    					<div id="heating_graphic02">
+    						<img src="img/heating_graphic02.png">
+    					</div>
+    					<div id="heating_graphic03">
+    						<img src="img/heating_graphic03.png">
+    					</div>
+    				</div> <!-- End of Heating Section -->
+    			</div> <!-- End of Heating Section Container -->
+    			<div id="cooling_container">
     			<div id="cooling"> <!-- Start of Cooling Section -->
     				<h2>Cooling</h2>
     				<p>Central air conditioning helps keep your environment cool and reduces humidity levels. 
@@ -119,48 +122,54 @@
     					<img src="img/cooling_graphic03.png">
     				</div>
     			</div> <!-- End of Cooling Section -->
+    			</div>
+    			<div id="about_container">
     			<div id="about_us"> <!-- Start of the About Us Section -->
     				<h2>About Us</h2>
     				<p>Our goal is to keep your warm and comfortable through the winter months. We know which products and systems
     				will work best for you. Our recommendations will always keep your requirements and budgets in mind.
     				We'll respond to your requests and act quickly when you call. Nothing is more important than your peace of mind 
     				when the weather is cold.</p>
-    				<div class="logos">
-    					<a href="http://www.aosmith.com/"><img src="img/AoSmith.png" alt="AoSmith"></a>
-    					<a href="http://www.fujitsu.com/global/"><img src="img/Fujitsu.png" alt="Fujitsu"></a>
-    					<a href="http://www.emersonclimate.com/en-us/brands/white_rodgers/pages/white_rodgers.aspx"><img src="img/whiterodgers.png" alt="White Rodgers"></a>
-    					<a href="http://www.uticaboilers.com/"><img src="img/uticaboilers.png" alt="Utica Boilers"></a>
-    					<a href="http://www.taco-hvac.com/"><img src="img/taco.png" alt="Taco"></a>
-    					<a href="http://www.bryant.com/"><img src="img/bryant.png" alt="Bryant"></a>
-    					<a href="http://www.mitsubishicars.com/"><img src="img/mitsubishi.png" alt="Mitsubishi"></a>
-    				</div>
-    				<div class="logos2">
-    					<a href="http://www.peerless-av.com/en-us/professional/"><img src="img/peerless.png" alt="Peerless"></a>
-    					<a href="http://www.goodmanmfg.com/"><img src="img/goodman.png" alt="Goodman"></a>
-    					<a href="http://www.crownboiler.com/"><img src="img/crownboiler.png" alt="Crown Boiler"></a>
-    					<a href="http://www.ruud.com/"><img src="img/ruud.png" alt="Ruud"></a>
-    					<a href="http://www.rheem.com/"><img src="img/rheem.png" alt="Rheem"></a>
-    					<a href="http://www.trane.com/index.aspx"><img src="img/trane.png" alt="Trane"></a>
-    					<a href="http://us.sanyo.com/"><img src="img/sanyo.png" alt="Sanyo"></a>
-    				</div>
-    				<div class="logos2">
-    					<a href="http://www.burnhamcommercial.com/"><img src="img/burnham.png" alt="Burnham"></a>
-    					<a href="http://www.lennox.com/"><img src="img/lennox.png" alt="Lennox"></a>
-    					<a href="http://www.bradfordwhite.com/"><img src="img/bradfordwhite.png" alt="Bradford White"></a>
-    					<a href="http://www.weil-mclain.com/en/weil-mclain/"><img src="img/wellmclain.png" alt="Well-Mclain"></a>
-    					<a href="http://honeywell.com/Pages/Home.aspx"><img src="img/honeywell.png" alt="Honeywell"></a>
-    					<a href="http://www.york.com/"><img src="img/york.png" alt="York"></a>
-    					<a href="http://www.carrier.com/carrier/en/us/"><img src="img/carrier.png" alt="Carrier"></a>
-    				</div>
-    				<div class="logos3">
-    					<a href="http://www.amana-hac.com/"><img src="img/amana.png" alt="Amana"></a>
-    					<a href="http://luxaire.com/"><img src="img/luxaire.png" alt="Luxaire"></a>
-    					<a href="http://www.americanstandard-us.com/"><img src="img/american_standard.png" alt="American Standard"></a>
-    				</div>
+    				<table id="mini-logos">
+    					<tr>
+    						<td><a href="http://www.aosmith.com/"><img src="img/AoSmith.png" alt="AoSmith"></a></td>
+    						<td><a href="http://www.fujitsu.com/global/"><img src="img/Fujitsu.png" alt="Fujitsu"></a></td>
+    						<td><a href="http://www.emersonclimate.com/en-us/brands/white_rodgers/pages/white_rodgers.aspx"><img src="img/whiterodgers.png" alt="White Rodgers"></a></td>
+    						<td><a href="http://www.uticaboilers.com/"><img src="img/uticaboilers.png" alt="Utica Boilers"></a></td>
+    						<td><a href="http://www.taco-hvac.com/"><img src="img/taco.png" alt="Taco"></a></td>
+    						<td><a href="http://www.bryant.com/"><img src="img/bryant.png" alt="Bryant"></a></td>
+    						<td><a href="http://www.mitsubishicars.com/"><img src="img/mitsubishi.png" alt="Mitsubishi"></a></td>
+    					</tr>
+    					<tr>
+    						<td><a href="http://www.peerless-av.com/en-us/professional/"><img src="img/peerless.png" alt="Peerless"></a></td>
+    						<td><a href="http://www.goodmanmfg.com/"><img src="img/goodman.png" alt="Goodman"></a></td>
+    						<td><a href="http://www.crownboiler.com/"><img src="img/crownboiler.png" alt="Crown Boiler"></a></td>
+    						<td><a href="http://www.ruud.com/"><img src="img/ruud.png" alt="Ruud"></a></td>
+    						<td><a href="http://www.rheem.com/"><img src="img/rheem.png" alt="Rheem"></a></td>
+    						<td><a href="http://www.trane.com/index.aspx"><img src="img/trane.png" alt="Trane"></a></td>
+    						<td><a href="http://us.sanyo.com/"><img src="img/sanyo.png" alt="Sanyo"></a></td>
+    					</tr>
+    					<tr>
+    						<td><a href="http://www.burnhamcommercial.com/"><img src="img/burnham.png" alt="Burnham"></a></td>
+    						<td><a href="http://www.lennox.com/"><img src="img/lennox.png" alt="Lennox"></a></td>
+    						<td><a href="http://www.bradfordwhite.com/"><img src="img/bradfordwhite.png" alt="Bradford White"></a></td>
+    						<td><a href="http://www.weil-mclain.com/en/weil-mclain/"><img src="img/wellmclain.png" alt="Well-Mclain"></a></td>
+    						<td><a href="http://honeywell.com/Pages/Home.aspx"><img src="img/honeywell.png" alt="Honeywell"></a></td>
+    						<td><a href="http://www.york.com/"><img src="img/york.png" alt="York"></a></td>
+    						<td><a href="http://www.carrier.com/carrier/en/us/"><img src="img/carrier.png" alt="Carrier"></a></td>
+    					</tr>
+    					<tr>
+    						<td colspan="2">
+    						<td><a href="http://www.amana-hac.com/"><img src="img/amana.png" alt="Amana"></a></td>
+    						<td><a href="http://luxaire.com/"><img src="img/luxaire.png" alt="Luxaire"></a></td>
+    						<td><a href="http://www.americanstandard-us.com/"><img src="img/american_standard.png" alt="American Standard"></a></td>
+    					</tr>
+    				</table>
     				<div id="car">
     					<img src="img/car.png" alt="Empire Heating & Cooling Inc. Vehicle">
     				</div>
     			</div> <!-- End of About Us Section -->
+    			</div>
     		</div> <!-- End of Content Section -->
     
     		<div id="footer">
