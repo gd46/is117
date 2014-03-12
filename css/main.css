@@ -285,6 +285,9 @@ table #red {
 	position: absolute;
 	top: 1327px;
 }
+#seperator {
+	border-bottom: 3px solid white;
+}
 .rotate{
 	-webkit-transform: rotate(-90deg);
 	-moz-transform: rotate(-90deg);
